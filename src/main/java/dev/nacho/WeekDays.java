@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeekDays {
-   
+
     private List<Day> days;
 
     public void createList() {
@@ -43,7 +43,7 @@ public class WeekDays {
     public void sort() {
         days.sort(new DayComparator());
     }
-    
+
     public void clear() {
         days.clear();
     }
